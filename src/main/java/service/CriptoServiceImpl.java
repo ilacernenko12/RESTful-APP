@@ -20,8 +20,9 @@ public class CriptoServiceImpl implements CriptoService{
     }
 
     @Override
-    public void read (long id){
+    public Cripto read (long id){
         criptoRepository.findById(id);
+        return null;
     }
 
 

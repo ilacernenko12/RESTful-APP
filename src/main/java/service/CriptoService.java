@@ -8,9 +8,8 @@ public interface CriptoService {
 
     void create(Cripto cripto);
 
-    void read(long id);
+    Cripto read(long id);
 
     void delete (Long id);
     List<Cripto> getAll();
-
 }
